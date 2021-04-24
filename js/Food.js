@@ -32,7 +32,7 @@ class Food{
     }*/
 
     Garden(){
-        background("yellow");
+        background(garden,500, 500);
     }
 
     BedRoom(){
