@@ -76,7 +76,7 @@ function draw() {
   }else if(currentTime==(lastFed+2)){
     update("Sleeping");
     foodObj.BedRoom();
-  }else if(currentTime>(lastFed-2) && currentTime<=(lastFed-4)){
+  }else if(currentTime>(lastFed+2) && currentTime<=(lastFed+4)){
     update("Bathing");
     foodObj.WashRoom();
   }else{
